@@ -1,0 +1,137 @@
+@import url(/UI-User/styles/reset/rese.css);
+
+body{
+  background-color:#E6EAF8;
+}
+#app{
+  background-color: #ffffff;
+  width: 76%;
+  height: 500px;
+  margin:6.5rem auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+  border: 1px solid #FFFFFF;
+}
+
+header{
+  width: 86%;
+  margin:5.8rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+ul{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+ul li{
+  padding: 0 6px;
+  font-family: arial;
+  font-size: 13px;
+  color: #55596A;
+}
+ul .nw-user {
+  background-color: #849FFF;
+  padding: 10px;
+  border-radius: 6px;
+}
+ul .nw-user li{
+  color: #EBF0FF;
+}
+
+.pesquisa{
+  border: 1px solid #D0D7EC;
+  padding: 10px;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+}
+.pesquisa input{
+  border: none;
+  color: #D1D2D7;
+  font-size: 12px;
+}
+.pesquisa i{
+  color: #151B32;
+  font-size: 14px;
+}
+
+#app .title{
+  
+  margin:3.8rem 0 0 3.3rem;
+  position: absolute;
+}
+#app .title h1{
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: Abyssinica SIL;
+  color: #151B32;
+  letter-spacing: 1px;
+}
+
+
+/*---------------------------*/
+.container{
+  max-width: 655px;
+  height: 280px;
+  margin: -4rem auto;
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.sidenev{
+  
+  padding: 6px;
+  display:flex;
+  flex-direction: column;
+
+}
+.sub-box{
+
+  width: 100%;
+  height: 125px;
+  margin: auto;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.subBx{
+  border-radius: 14px;
+  border: 1px solid #C5CDE8;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.sub-box .imagem img{
+  width: 80px;
+  clip-path: circle();
+}
+.conteudo h1{
+  font-size: 14px;
+  font-family: Abyssinica SIL;
+  color: #1d2339;
+  font-weight: bold;
+}
+.conteudo h4{
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: arial;
+  font-weight: 10px;
+}
+.conteudo span{
+  font-size: 10px;
+  border: 1px solid #b6c5f7;
+  padding: 2px;
+  color: #849FFF;
+  border-radius: 6px;
+  font-family: arial;
+  background-color: #ffffff;
+}
+
+.conteudo div{
+  display: flex;
+  margin-top: 4px;
+  margin-right: 4px;
+}
